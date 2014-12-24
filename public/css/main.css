@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'frizquadratatt';
+    src: url('../frizquadratatt.ttf') format('truetype')
+    font-style: normal;
+}
+
+body {
+  font-family: 'frizquadratatt';
+}
