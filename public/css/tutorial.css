@@ -1,0 +1,97 @@
+#ExternalRect {
+   stroke: black;
+   stroke-dasharray: 5,10;
+   stroke-width: 10;
+   fill: white;
+}
+
+#ExternalRect:hover {
+  stroke: blue;
+  fill: yellow;
+}
+
+#test:hover {
+  fill: yellow;
+}
+
+#right_bars {
+  fill:#0560a7;
+}
+
+#right_bars:hover {
+  fill:black;
+}
+
+#left_bars {
+  fill:#0560a7;
+}
+
+#left_bars:hover {
+  fill:black;
+}
+
+#crest {
+  fill: white;
+}
+
+#crest:hover {
+  fill: blue;
+}
+
+#shield {
+  fill:#ffdf1a;
+}
+
+#shield:hover {
+  /*fill:#0560a7;*/
+  fill: url(#LUFC);
+  opacity: 0.8;
+}
+
+#l_letter {
+  fill:#0560a7;
+}
+
+#l_letter:hover {
+  fill: red;
+}
+
+#u_letter {
+  fill:#0560a7;
+}
+
+#u_letter:hover {
+  fill: red;
+}
+
+#f_letter {
+  fill:#0560a7;
+}
+
+#f_letter:hover {
+  fill: red;
+}
+
+#c_letter {
+  fill:#0560a7;
+}
+
+#c_letter:hover {
+  fill: red;
+}
+
+#l_letter_pattern {
+  fill:red;
+}
+
+#u_letter_pattern {
+  fill:red;
+}
+
+#f_letter_pattern {
+  fill:red;
+}
+
+#c_letter_pattern {
+  fill:red;
+}

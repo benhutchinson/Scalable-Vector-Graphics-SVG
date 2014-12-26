@@ -8,8 +8,6 @@
 
 <img src="/img/lufc.svg" id="lufc_logo">
 
-test
-
 <svg xmlns="http://www.w3.org/2000/" svg width="300" height="300" >
    <text style="font-size:30; stroke: blue" x="10" y="170">
     Hello SVG World
@@ -24,7 +22,11 @@ var lufc = Snap("#lufc_logo");
 var s = Snap(300, 300);
 
 Snap.load("/img/lufc.svg", function (f) {
-    s.append(f);
+  lufc.attr({  
+    stroke: '#000',
+    strokeWidth: 5
+  });
+  lufc.append(f);
 });
 
 var bigCircle = s.circle(150, 150, 100);
@@ -34,11 +36,7 @@ bigCircle.attr({
   strokeWidth: 5
 });
 
-lufc.attr({
-  stroke: '#000',
-  strokeWidth: 5
-});
-
+l
 
 </script>
 </body>
