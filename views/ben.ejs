@@ -6,37 +6,28 @@
 <script src="/js/snap.svg-min.js"></script>
 <body>
 
-<img src="/img/lufc.svg" id="lufc_logo">
-
-<svg xmlns="http://www.w3.org/2000/" svg width="300" height="300" >
-   <text style="font-size:30; stroke: blue" x="10" y="170">
-    Hello SVG World
-  </text>
- </svg>
-
-
 <script>
 
-var lufc = Snap("#lufc_logo");
+var s = Snap(700, 700);
 
-var s = Snap(300, 300);
-
-Snap.load("/img/lufc.svg", function (f) {
-  lufc.attr({  
-    stroke: '#000',
-    strokeWidth: 5
-  });
-  lufc.append(f);
+Snap.load("/img/lufc.svg", function(svg) {
+  svg.select("#l_letter").attr({fill: "lime"});
+  svg.select("path[style='fill:#ffffff;fill-rule:evenodd']").attr({style: "fill:yellow;fill-rule:evenodd"});
+  var uLetter = svg.select("#u_letter");
+  uLetter.animate({fill: "#0560a7"}, 2000);
+  uLetter.animate({transform: "translate(-700.0264985,-900.47269935) scale(4)"}, 2000, mina.bounce);
+  uLetter.animate({stroke: "white", strokeWidth: 0.4}, 3000);
+  var badge = svg.select("#Ebene_1");
+  badge.animate({x: "20px", y: "30px", opacity: 1}, 2000, mina.elastic);
+  badge.node.onclick = function(){
+    badge.animate({x: "0px", y: "0px", opacity: 1}, 1000);
+  };
+  uLetter.drag;  
+  // uLetter.filter.grayscale(1);
+  // badge.filter.shadow(10, 20, 10, "black", 1));
+  s.append(svg);
 });
 
-var bigCircle = s.circle(150, 150, 100);
-
-bigCircle.attr({
-  stroke: '#000',
-  strokeWidth: 5
-});
-
-l
 
 </script>
 </body>

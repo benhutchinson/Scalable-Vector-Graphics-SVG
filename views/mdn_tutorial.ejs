@@ -1,6 +1,9 @@
 <html>
 
-<link type="text/css" rel="stylesheet" href="/css/tutorial.css">
+<link type="text/css" rel="stylesheet" href="/css/main.css">
+
+<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+<script src="/js/snap.svg-min.js"></script>
 
 <body>
 
@@ -93,5 +96,36 @@
   <image x="150" y="-65" width="250" height="174" transform="rotate(45)"
      xlink:href="/img/lufcpeacock.png"/>
 </svg>
+
+<p>
+<svg xmlns="http://www.w3.org/2000/" svg width="700" height="700" id="text_filters">
+<defs>
+<filter id="css_blur">
+  <feGaussianBlur stdDeviation="5"/>
+</filter>
+</defs>
+   <text id="my_comment" style="font-size:80" stroke="blue" stroke-width="2" x="10" y="170">
+    Hello SVG World
+  </text>
+  <text id="blurred" style="font-size:80" fill="navy" x="10" y="370">Blurry SVG</text>
+ </svg>
+
+
+<p id="changeText">
+Click this to change an element of the logo.
+<object id="logo" width="400" height="300" type="image/svg+xml" data="img/lufc.svg"></object>
+
+
+<script>
+  $(document).ready(function(){
+    $('#changeText').click(function(){
+      var svg = document.getElementById("logo");
+      var svgDoc = svg.contentDocument;
+      var lLetter = svgDoc.getElementById("l_letter");  
+      lLetter.setAttribute("fill", "navy");
+      lLetter.setAttribute("transform", "scale(3) rotate(10) translate(-150, -200)");  
+     });
+  });
+</script>
 
 </html>

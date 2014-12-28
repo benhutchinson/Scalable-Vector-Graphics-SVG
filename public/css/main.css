@@ -7,5 +7,39 @@
 body {
   font-family: 'frizquadratatt';
   margin: 25px;
-  background-color: #0560a7;
+}
+
+#my_comment {
+  fill: none;
+  stroke-dasharray: 460;
+  stroke-dashoffset: 465;
+  -webkit-animation: dash 6s ease-in-out forwards;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#blurred {
+    filter: url(#css_blur);
+}
+
+.mini {
+  border: 1px solid black;
+  clip-path: polygon(30px 70px, 70px 100px, 100px 200px);
+    /*clip-path: url(#svgPath);*/
+}
+
+#ExternalRect {
+   stroke: black;
+   stroke-dasharray: 5,10;
+   stroke-width: 10;
+   fill: white;
+}
+
+#ExternalRect:hover {
+  stroke: blue;
+  fill: yellow;
 }
