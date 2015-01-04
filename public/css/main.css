@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'frizquadratatt';
-    src: url('../frizquadratatt.ttf') format('truetype')
+    src: url('/fonts/frizquadratatt.ttf') format('truetype');
     font-style: normal;
 }
 
@@ -42,4 +42,26 @@ body {
 #ExternalRect:hover {
   stroke: blue;
   fill: yellow;
+}
+
+#leedsunitedtext {
+  transform: rotateX(0deg) rotate(2deg) rotateY(-8.5deg) scale(1);
+}
+
+#textwrapper {
+  -webkit-perspective: 90px;
+  transition: all 4s ease-in-out;
+}
+
+#textwrapper:hover {
+  transform: scaleX(-0.5);
+}
+
+#test {
+  transition: all 2s ease-in;
+}
+
+#test:hover {
+  stroke: white;
+  stroke-width: 5px;
 }

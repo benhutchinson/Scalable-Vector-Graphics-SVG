@@ -19,6 +19,14 @@ app.get('/clip', function(req, res){
   res.render('clip');
 });
 
+app.get('/blend', function(req, res){
+  res.render('blend');
+});
+
+app.get('/blend2', function(req, res){
+  res.render('blend2');
+});
+
 app.get('/mdn_tutorial', function(req, res){
   res.render('mdn_tutorial');
 });

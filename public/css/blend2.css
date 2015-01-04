@@ -1,0 +1,52 @@
+body { 
+	width: 100%;
+	height: 100%;
+}
+
+#background-image {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	content: "";
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+
+		background-image: url("/img/tables.jpg");
+		z-index: 0;
+		-webkit-filter: blur(5px);
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	content: "";
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+
+#content {
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 500px;
+	height: 400px;
+	margin-left: -250px;
+	margin-top: -200px;
+	display: inline-block;
+	color: white;
+	font-size: 4em;
+	letter-spacing: -4px;
+	font-family: "Helvetica Neue", Arial; 
+	font-weight: 900;
+	background-color: rgba(100,0,0,0.7);
+	padding: 30px; 
+	border-bottom: 20px solid white;
+	border-top: 20px solid black;
+	z-index: 10;
+}
