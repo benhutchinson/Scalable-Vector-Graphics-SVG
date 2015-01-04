@@ -26,4 +26,5 @@ body {
 
 .tint:hover:before {
   background: rgba(100,255,255, 0.5);
+    -webkit-mask: url("/img/lufc.svg") top left / cover;
 }
