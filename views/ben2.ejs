@@ -12,8 +12,10 @@
 <svg version="1.1"
  baseProfile="full"
  width="100%"
+ height="200"
   xmlns="http://www.w3.org/2000/svg">
-  <text y="130" x="20%" font-size="80" fill="white">Leeds <tspan id="test" rotate="15">United</tspan> FC</text>
+  <text y="30" x="20%" font-size="80" fill="white" transform="skewY(6)">Leeds <tspan id="test" rotate="15">United</tspan> FC
+</text>
 
 <path id="my_path" d="M 150,140 C 40,40 80,40 700,220" style="opacity:0;" />
 <text font-size="20" style="fill: yellow">
@@ -54,7 +56,6 @@
 
 <defs>
 
-
 <pattern id="LUFC" width="5" height="10" patternUnits="userSpaceOnUse">
   <rect width='110%' x='-5%' y='-5%' height='110%' fill='transparent'/>
   <line x1='-2' y1='1' x2='7' y2='10' stroke='white' stroke-width='1'/>
@@ -62,13 +63,6 @@
   <line x1='-2' y1='-4' x2='7' y2='5' stroke='white' stroke-width='1'/>
 </pattern>
 
- <!--  <pattern id="LUFC" x="0" y="0" width="0.5" height="0.5" patternContentUnits="objectBoundingBox">
-    <rect x="0" y="0" width="0.25" height="0.25" fill="skyblue"/>
-    <rect x="0" y="0.25" width="0.25" height="0.25" fill="yellow"/>
-    <rect x="0.25" y="0.25" width="0.25" height="0.25" fill="green"/>
-    <rect x="0.25" y="0" width="0.25" height="0.25" fill="red"/>
-  
-  </pattern> -->
 </defs>
 
 
@@ -838,7 +832,22 @@
      inkscape:connector-curvature="0"
      style="fill-rule:evenodd"
      transform="translate(-1.0264985,-0.47269935)"
-     inkscape:label="#path3761" /><path
+     inkscape:label="#path3761">
+
+     <animateTransform attributeName="transform"
+                      type="scale"
+                      from="4" to="1"
+                      begin="0s" dur="5s"
+            />
+
+    <animateTransform attributeName="transform" attributeType="XML"
+                          type="rotate"
+                          from="315" to="0"
+                          begin="0s" dur="5s"
+                />
+
+
+          </path><path
      clip-path="url(#SVGID_2_)"
      clip-rule="evenodd"
      d="m 223.458,280.439 c -3.402,-2.433 -8.439,-2.76 -11.035,0.895 -2.603,3.656 1.453,4.711 2.352,4.711 0.89,0 4.954,0.813 8.683,-5.606"

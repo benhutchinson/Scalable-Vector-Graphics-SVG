@@ -7,7 +7,7 @@ I have decided to learn some of the basics of SVG files.  This is a work-in-prog
 -- ideas
 - more sources
 - tidy up
-- can i get clippath to work
+- floppy disk walkway idea https://github.com/ConnorAtherton/walkway
 
 ###Technologies
 
@@ -18,7 +18,9 @@ I have decided to learn some of the basics of SVG files.  This is a work-in-prog
 
 ###Sources
 - (http://webplatform.adobe.com/)
-- Snap SVG
+- Snap SVG Raphael
 - CSS Tricks: A Compendium Of SVG Information (http://css-tricks.com/mega-list-svg-information/)
 - An interesting case study : Vox Media Xbox One Review (http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
 - Simpl / Fun (https://jonsuh.com/blog/animate-svg-with-css/)
+- MDN
+- http://tutorials.jenkov.com/svg/svg-transformation.html
