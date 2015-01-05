@@ -31,7 +31,7 @@ SVG elements are described in mark-up.
 
 ```
 
-![Computer](/img/computer.svg)
+![Computer](/public/img/computer.svg)
 
 
 By understanding the basic structure of an SVG file, you can gain an additional level of control over a graphic.   
@@ -42,7 +42,7 @@ where can i show an svg file.
 need to show 009.svg file
 009, stroke + TM
 
-![SVG Snap Logo](/img/crocdile.png)
+![SVG Snap Logo](/public/img/crocdile.png)
 
 
 
