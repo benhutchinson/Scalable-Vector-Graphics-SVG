@@ -53,16 +53,9 @@ We are really just scratching SVG's surface here.  In an era of infographics and
 ###Concluding Thoughts, Tool Selection, More Inspiring Examples
 * Learning about SVG very much reminds me of Adobe Flash.  The more you learn how to use it, the more the boundaries between the web and graphics design appear to blur.  Modern browsers appear to be quite powerful rendering agents, almost serving as an extension of a graphic software's canvas.  
 * Increasingly we must make a technology choice.  Frankly, the more I learned about the different ways to play with and animate SVG files, the more I appreciated the ease of CSS.  There are some [good tutorials on some CSS transition properties here](http://www.atozcss.com/episodes/) that even touch on some basic 3D transformations such as ```perspective``` for example.
-* If you are inspired by any of this and would like more control or want to create your own illustrations and graphics, you should probably only go so far with the code and spend more time learning how to use Illustrator.  It can output the shapes and paths you desire in a much more intuitive and visual fashion.
+* It is good to have an understanding of how SVG files are composed mathematically, their co-ordinate grid, and how they can be controlled, but if you are inspired by any of this and would like more control or want to create your own illustrations and graphics, you should probably only go so far with the code and spend more time learning how to use Illustrator.  It can output the shapes and paths you desire in a much more intuitive and visual fashion.  [Adobe's Project Parfait](http://www.adobe.com/uk/creativecloud/extract.html) also offers insight into how tightly graphics software is being integrated into the web development process.
 * [A few more cool examples from Adobe can be found here.  I like their ad.](http://snapsvg.io/demos/)
-* Bring on [The Graphical Web](http://thegraphicalweb.com/)
-
-###So SVG Is Great But What Is Is Not?
-- SVG files are not photos...
-- It is good to have an understanding of how SVG files are composed mathematically, their co-ordinate grid, and how they can be controlled, but clearly for advanced illustrations, using dedicated graphics software such as Adobe Illustrator will be more intuitive.  [Adobe's Project Parfait](http://www.adobe.com/uk/creativecloud/extract.html) also offers insight into how tightly graphics software is being integrated into the web development process.
-- More [advanced blending-mode properties](http://webplatform.adobe.com/) seem to be in development.
-
-###Where To Learn More
+* Oh, and SVG files are not photos...let us bring on [The Graphical Web](http://thegraphicalweb.com/)
 
 ###Resources & Tutorials
 - [Caniuse.com](http://www.caniuse.com) is a useful web-site if you want to assess a feature's cross-browser functionality.  This is important as the graphical web is continually evolving.
