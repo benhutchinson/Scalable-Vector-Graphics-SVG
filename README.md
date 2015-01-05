@@ -4,7 +4,11 @@ An Intro to Scalable Vector Graphics
 Over Christmas, I decided to learn some of the basics of Scalable Vector Graphics (SVG).  The below offers the basic outline of a talk I subsequently gave at Makers Academy on the topic.  This is meant to serve as a very basic introduction to SVG and scratch the surface of some of its key selling points.  My presentation is best consumed with a basic grasp of jQuery, CSS3, and HTML.  The files are hosted here on Heroku.
 
 ---------- add all links.
----------- delete needless files in respository.
+---------- heroku
+---------- link the presentation slides
+---------- the red 't' to mask out on 009
+---------- the needless footer content on 007
+---------- a few new movie fonts to link it
 
 
 ###What Is A Scalable Vector Graphic?  Why Should You Care?
@@ -86,3 +90,6 @@ We are really just scratching SVG's surface here.  In an era of infographics and
 - jQuery
 - Inkscape
 - Node.js, Express Server, EJS Templating
+
+###How To Improve This Project
+- There are some unnecessary files in this repository currently..
