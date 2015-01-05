@@ -31,7 +31,7 @@ SVG elements are described in mark-up.
 
 ```
 
-![Computer](https://github.com/benhutchinson/SVG/blob/master/public/img/computer.svg)
+![Computer](https://github.com/benhutchinson/SVG/blob/master/public/img/computer.png)
 
 
 By understanding the basic structure of an SVG file, you can gain an additional level of control over a graphic.   
