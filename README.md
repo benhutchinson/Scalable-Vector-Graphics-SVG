@@ -46,43 +46,19 @@ Given that all SVG files are shapes and paths that can be configured and styled 
 
 ![Camera](https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png)
 
-###Concluding Thoughts & More Inspiring Examples
-Learning about SVG very much reminds me of Adobe Flash.  The more you learn how to use it, the more the boundaries between the web and graphics design appear to blur.  Modern browsers appear to be quite powerful rendering agents, almost serving as an extension of a graphic software's canvas.  This said, I think it is important to stress that SVG offers more than just animation.  For example, [D3.js is a JavaScript library for manipulating documents based on data](http://d3js.org) and one of the next libraries I am personally keen to explore.  
 
+###Where Would I Go Next?
+We are really just scratching SVG's surface here.  In an era of infographics and increasingly visual content, SVG's domain should be seen as much broader than that of quirky animations and cool front-pages.  [D3.js is a JavaScript library for manipulating documents based on data](http://d3js.org) and one of the next libraries I am personally keen to explore.  In addition, I haven't covered how SVG files can be used as masks.  Their shapes and patterns can be used to partially reveal a background.  Some rough-and-ready examples can be found here.
 
-If you would just like to s
-
-
-
-
-To use it well and to create illustrations of your own, clearly a mastery of Adobe Illustrator or the free version 
-
-
-It seems exceptionally powerful when use
-
-http://snapsvg.io/demos/
-
-http://thegraphicalweb.com/
-
-
-Examples can be found
-
-creating graphics, use well w illustrator
-
-limits - ie. want to access elements, but more precise shaping etc and defining of elements better in a graphics package
-check on smaller mac
-heroku host
-tidy up a bit more
-rough examples cna't cover - clip, mask more animations
-the examples in the adobe library
-conclusion, remidns me of flash a bit.
-
-
-
+###Concluding Thoughts, Tool Selection, More Inspiring Examples
+* Learning about SVG very much reminds me of Adobe Flash.  The more you learn how to use it, the more the boundaries between the web and graphics design appear to blur.  Modern browsers appear to be quite powerful rendering agents, almost serving as an extension of a graphic software's canvas.  
+* Increasingly we must make a technology choice.  Frankly, the more I learned about the different ways to play with and animate SVG files, the more I appreciated the ease of CSS.  There are some [good tutorials on some CSS transition properties here](http://www.atozcss.com/episodes/) that even touch on some basic 3D transformations such as ```perspective``` for example.
+* If you are inspired by any of this and would like more control or want to create your own illustrations and graphics, you should probably only go so far with the code and spend more time learning how to use Illustrator.  It can output the shapes and paths you desire in a much more intuitive and visual fashion.
+* [A few more cool examples from Adobe can be found here.  I like their ad.](http://snapsvg.io/demos/)
+* Bring on [The Graphical Web](http://thegraphicalweb.com/)
 
 ###So SVG Is Great But What Is Is Not?
 - SVG files are not photos...
-- The more I learned about the different ways to play with and animate SVG files, the more I appreciated the ease of CSS.  There are some [good tutorials on some CSS transition properties here](http://www.atozcss.com/episodes/) that even touch on some basic 3D transformations such as ```perspective``` for example.
 - It is good to have an understanding of how SVG files are composed mathematically, their co-ordinate grid, and how they can be controlled, but clearly for advanced illustrations, using dedicated graphics software such as Adobe Illustrator will be more intuitive.  [Adobe's Project Parfait](http://www.adobe.com/uk/creativecloud/extract.html) also offers insight into how tightly graphics software is being integrated into the web development process.
 - More [advanced blending-mode properties](http://webplatform.adobe.com/) seem to be in development.
 
