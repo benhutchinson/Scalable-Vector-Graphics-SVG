@@ -13,10 +13,9 @@ body {
 	top: 0px;
 	left: 0px;
 	overflow: hidden;
-
-		background-image: url("/img/tables.jpg");
-		z-index: 0;
-		-webkit-filter: blur(5px);
+	background-image: url("/img/tables.jpg");
+	z-index: 0;
+	-webkit-filter: blur(5px);
 }
 
 #container {

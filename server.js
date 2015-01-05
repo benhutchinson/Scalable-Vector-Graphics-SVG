@@ -11,6 +11,10 @@ app.get('/snap', function(req, res){
   res.render('ben');
 });
 
+app.get('/007', function(req, res){
+  res.render('007');
+});
+
 app.get('/', function(req, res){
   res.render('ben2');
 });
