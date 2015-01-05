@@ -4,7 +4,6 @@ var server = require('http').createServer(app);
 
 app.set('view engine', 'ejs');
 
-
 app.use(express.static(__dirname + '/public'));
 
 app.get('/snap', function(req, res){
@@ -33,10 +32,6 @@ app.get('/clip', function(req, res){
 
 app.get('/blend', function(req, res){
   res.render('blend');
-});
-
-app.get('/blend2', function(req, res){
-  res.render('blend2');
 });
 
 app.get('/mdn_tutorial', function(req, res){

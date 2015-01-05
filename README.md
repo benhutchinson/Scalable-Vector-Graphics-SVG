@@ -9,6 +9,7 @@ Over Christmas, I decided to learn some of the basics of Scalable Vector Graphic
 ---------- the red 't' to mask out on 009
 ---------- the needless footer content on 007
 ---------- a few new movie fonts to link it
+---------- check on the screen looks ok
 
 
 ###What Is A Scalable Vector Graphic?  Why Should You Care?
