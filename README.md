@@ -18,8 +18,7 @@ Assuming you hold an SVG file, you may decide that you would like to customise i
 
 All SVG files are simply collections of shapes and lines or paths.  The '0' in the '007' logo could be considered as a couple of rotated ellipses or even closed path elements while the crocodile copied below could be seen as a structure of polygons.  The elements that make up SVG images can take a stroke and fill and are described in mark-up very similar to HTML.  Below is the SVG code that describes the computer graphic copied further beneath.  If you were to assign the ```rect``` and ```polygon``` elements individual ```id``` attributes and remove their currently assigned ```fill``` attributes, you would now be in a position to style the computer via a CSS file. 
 
-[It is through this logic that my opening "007" page can easily take a more minimalist style]().  [Further examples with the Leeds United FC logo can also be found here.]()  The Yorkshire Rose pops out and rotates on mouseover, the core badge fill takes a patterned fill defined by the SVG diagonal box on the left-hand-side of the page, the chevrons and text fade and take a stroke, and the "l" letter flies in completing the graphic on page load.
-
+[It is through this logic that my opening "007" page can easily take a more minimalist style]().  [Further examples with the Leeds United FC logo can also be found here.]()  The Yorkshire Rose pops out and rotates on mouseover, the core badge fill takes a patterned fill defined by the SVG diagonal box on the left-hand-side of the page, the chevrons and text fade and take a stroke, and the "l" letter flies in completing the graphic on page load.  [And if you prefer cats, try this.](http://codepen.io/miukimiu/full/Igouf/)
 
 ```html
 
@@ -47,23 +46,29 @@ Given that all SVG files are shapes and paths that can be configured and styled 
 
 ![Camera](https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png)
 
-###The nth Level
- 
+###Concluding Thoughts & More Inspiring Examples
+Learning about SVG very much reminds me of Adobe Flash.  The more you learn how to use it, the more the boundaries between the web and graphics design appear to blur.  Modern browsers appear to be quite powerful rendering agents, almost serving as an extension of a graphic software's canvas.  This said, I think it is important to stress that SVG offers more than just animation.  For example, [D3.js is a JavaScript library for manipulating documents based on data](http://d3js.org) and one of the next libraries I am personally keen to explore.  
 
 
-A more 
+If you would just like to s
 
 
+
+
+To use it well and to create illustrations of your own, clearly a mastery of Adobe Illustrator or the free version 
+
+
+It seems exceptionally powerful when use
+
+http://snapsvg.io/demos/
+
+http://thegraphicalweb.com/
 
 
 Examples can be found
 
+creating graphics, use well w illustrator
 
-
-()
-
-
-walkway + lufc page example
 limits - ie. want to access elements, but more precise shaping etc and defining of elements better in a graphics package
 check on smaller mac
 heroku host
@@ -75,15 +80,7 @@ conclusion, remidns me of flash a bit.
 
 
 
-
-- An interesting case study : 
-
-
-
-
-
-
-###What Is Is Not?
+###So SVG Is Great But What Is Is Not?
 - SVG files are not photos...
 - The more I learned about the different ways to play with and animate SVG files, the more I appreciated the ease of CSS.  There are some [good tutorials on some CSS transition properties here](http://www.atozcss.com/episodes/) that even touch on some basic 3D transformations such as ```perspective``` for example.
 - It is good to have an understanding of how SVG files are composed mathematically, their co-ordinate grid, and how they can be controlled, but clearly for advanced illustrations, using dedicated graphics software such as Adobe Illustrator will be more intuitive.  [Adobe's Project Parfait](http://www.adobe.com/uk/creativecloud/extract.html) also offers insight into how tightly graphics software is being integrated into the web development process.
@@ -92,27 +89,23 @@ conclusion, remidns me of flash a bit.
 ###Where To Learn More
 
 ###Resources & Tutorials
-- Caniuse.com
-- [Adobe provide a bit of an overview of some of the different image types that exist](https://helpx.adobe.com/illustrator/how-to/illustrator-bitmap-vs-vector.html)
+- [Caniuse.com](http://www.caniuse.com) is a useful web-site if you want to assess a feature's cross-browser functionality.  This is important as the graphical web is continually evolving.
+- [If you are new to graphics, Adobe provide a bit of an overview of some of the different image types that exist and the difference between vector and raster image files](https://helpx.adobe.com/illustrator/how-to/illustrator-bitmap-vs-vector.html)
+- The [Vox Media Xbox One Review](http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit) is an interesting SVG case study and a real-world example showing how a vector illustration is put together in Adobe Illustrator before finding its way on to the web and being animated, and I think it was the inspiration for Walkway.js
+- A Simple Fun Tutorial: [Animate SVG With CSS](https://jonsuh.com/blog/animate-svg-with-css/)
+- [CSS Tricks: A Compendium Of SVG Information](http://css-tricks.com/mega-list-svg-information/)
+- [MDN's SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) is fairly thorough if you would like to know a little more about SVG under the hood.
+- [Jenkov's SVG Tutorial](http://tutorials.jenkov.com/svg/index.html).  37 topics.  Pick the ones that interest you.  It is quite clear.
+- [An Online SVG File Converter](http://image.online-convert.com/convert-to-svg).  Try it and see if it works.  I have used it successfully with some png files that appear loss-less or hold some transparency.  Clearly a more optimal solution would be to use a dedicated vector package such as Adobe Illustrator.
+- [Inkscape](https://inkscape.org/en/) is a free vector illustration package.  I used it to open SVG files that I found and was able to "ungroup" shapes that were bound together in groups.  I could then use the software to assign an ```id``` to a shape.  This is much easier than guessing from within an SVG markup that is littered with numbers.
 
-Vox Media Xbox One Review (http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
-
+###Well-Known Javascript Libraries
+- [Snap](http://snapsvg.io) : linked to Adobe and aiming to take advantage of the very latest browsers
+- [Raphaël](http://raphaeljs.com/) : included in Snap.  Less advanced but more cross-browser compatibility.
 
 ###Technologies
-
-- [Snap SVG, a JavaScript SVG library](http://snapsvg.io).
 - SVG
+- CSS
+- jQuery
 - Inkscape
 - Node.js, Express Server, EJS Templating
-
-###Sources
-- Snap SVG Raphael
-- CSS Tricks: A Compendium Of SVG Information (http://css-tricks.com/mega-list-svg-information/)
-
-- Simpl / Fun (https://jonsuh.com/blog/animate-svg-with-css/)
-- MDN
-- http://tutorials.jenkov.com/svg/svg-transformation.html
-- Example (http://codepen.io/miukimiu/pen/Igouf)
-
-http://image.online-convert.com/convert-to-svg
-
