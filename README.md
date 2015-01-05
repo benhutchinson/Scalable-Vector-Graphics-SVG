@@ -3,6 +3,10 @@ An Introduction to Scalable Vector Graphics
 
 Over Christmas, I decided to learn some of the basics of Scalable Vector Graphics (SVG).  The below offers the basic outline of a talk I subsequently gave at Makers Academy on the topic.  This is meant to serve as a very basic introduction to SVG and scratch the surface of some of its key selling points.  My presentation is best consumed with a basic grasp of jQuery, CSS3, and HTML.  The files are hosted here on Heroku.
 
+---------- add all links.
+---------- delete needless files in respository.
+
+
 ###What Is A Scalable Vector Graphic?  Why Should You Care?
 SVG graphics are lossless.  You can scale them up as much as you like without suffering any degradation in quality and they are typically small in file size too.  Oh, and just one more thing.. with SVG, you have the ability to dynamically alter and control internal elements, shapes and attributes of your graphics.  You can change strokes, alter shapes, adjust fills in your browser on the fly and take advantage of powerful animation libraries.  Put together, these features render SVG perfect for the web, well-supported, well-equipped for responsive design, great for mobile, and fantastic for creativity.  Chrome supports SVG out of the box.
 
@@ -10,14 +14,14 @@ SVG graphics are lossless.  You can scale them up as much as you like without su
 The front-page of my presentation here uses just one single 4kb SVG file.  The sliding animation is simply controlled via CSS but this illustrates quite simply some of the beauty of SVG and its crisp, smooth, lossless characteristics.  You can contrast this with an equivalent page using a small 200px 4kb GIF file I found here.  008 link.  Thus, what this means for you today is that where you are presented with a choice between using an SVG file or another in perhaps GIF or JPG format, you may find SVG more flexible, placing you better for customers on anything from mobile to 5k retina-like screens.  And if you do find an SVG file, don't be afraid to play with it a touch.
 
 ###Example #2 : The Next Step : Going Beneath The Bonnet Of SVG 
-Assuming you find an SVG file, you may decide that you would like to customise it.  For example, you may like to modify just small elements of the graphic and style individual shapes through CSS.  Alternatively, you may choose to alter the fill or stroke of an element in response to a jQuery event such as a click or mouseover and essentially manipulate the internals of a graphic similar to how you may manipulate the HTML DOM with jQuery.  To do this, you need to understand how SVG files are put together, therefore let us look at an example.  
+Assuming you hold an SVG file, you may decide that you would like to customise it on the fly.  For example, you may like to modify small elements of the graphic and style the fill or stroke of an element in response to a jQuery event such as a click or mouseover.  To do this, you need to understand how SVG files are put together, therefore let us look at an example.  
 
-All SVG files are essentially just collections of shapes and lines or paths.  These elements take a stroke and fill.  To put things simply, the '0' in the '007' logo could just be seen as a couple of rotated ellipses or even closed line elements and the crocodile below seen as a structure of polygons.  To help you further, this is best illustrated with some simple mark-up.   
+All SVG files are simply collections of shapes and lines or paths.  The '0' in the '007' logo could be considered as a couple of rotated ellipses or even closed path elements while the crocodile copied below could be seen as a structure of polygons.  The elements that make up SVG images can take a stroke and fill and are described in mark-up very similar to HTML.  Below is the SVG code that describes the computer graphic copied further beneath.  If you were to assign the ```rect``` and ```polygon``` elements individual ```id``` attributes and remove their currently assigned ```fill``` attributes, you would now be in a position to style the computer via a CSS file.  
 
-SVG elements are described in mark-up.
+[It is through this logic that my opening "007" page can easily take a more minimalist style.]()
 
 
-```
+```html
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 648 500" enable-background="new 0 0 648 500" xml:space="preserve">
@@ -33,16 +37,13 @@ SVG elements are described in mark-up.
 
 ![Computer](https://github.com/benhutchinson/SVG/blob/master/public/img/computer.png)
 
-
-By understanding the basic structure of an SVG file, you can gain an additional level of control over a graphic.   
-
-Let us look at some examples:
-
-where can i show an svg file.
-need to show 009.svg file
-009, stroke + TM
-
 ![SVG Snap Logo](https://github.com/benhutchinson/SVG/blob/master/public/img/crocodile.png)
+
+
+###Example #3 : Working With A Library
+
+
+
 
 
 
