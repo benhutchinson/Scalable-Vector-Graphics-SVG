@@ -42,8 +42,25 @@ All SVG files are simply collections of shapes and lines or paths.  The '0' in t
 
 
 ###Example #3 : Working With A Library
-Given that all SVG files are shapes and paths, it shouldn't be too much 
+Given that all SVG files are shapes and paths that can be configured and styled or mathematically altered, it shouldn't be too much of a surprise to learn that animation libraries exist.  A nice one that I found is called Walkway.js which [animates wireframe drawings of PS4 consoles here](http://www.connoratherton.com/walkway) and [here](http://www.polygon.com/a/ps4-review) and can used "to animate SVG images consisting of line, path, and polyline elements."  The author's code [is stored on Github](https://github.com/ConnorAtherton/walkway).  I was able to use this library together with camera graphic I found on Google Images below, and use this to [animate some of the sign-in pages on my Instagram project.](http://beninst.herokuapp.com/users/sign_up)
 
+
+![Camera](https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png)
+
+###The nth Level
+ 
+
+
+A more 
+
+
+
+
+Examples can be found
+
+
+
+()
 
 
 walkway + lufc page example
@@ -56,15 +73,10 @@ the examples in the adobe library
 conclusion, remidns me of flash a bit.
 
 
-###Example #3 : Let's Use A Library
 
 
 
-https://github.com/ConnorAtherton/walkway
-
-- An interesting case study : Vox Media Xbox One Review (http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
-
-
+- An interesting case study : 
 
 
 
@@ -83,6 +95,7 @@ https://github.com/ConnorAtherton/walkway
 - Caniuse.com
 - [Adobe provide a bit of an overview of some of the different image types that exist](https://helpx.adobe.com/illustrator/how-to/illustrator-bitmap-vs-vector.html)
 
+Vox Media Xbox One Review (http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit)
 
 
 ###Technologies
