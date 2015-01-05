@@ -15,6 +15,14 @@ app.get('/007', function(req, res){
   res.render('007');
 });
 
+app.get('/008', function(req, res){
+  res.render('008');
+});
+
+app.get('/009', function(req, res){
+  res.render('009');
+});
+
 app.get('/', function(req, res){
   res.render('ben2');
 });
