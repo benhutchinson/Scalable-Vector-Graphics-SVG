@@ -43,9 +43,7 @@ All SVG files are simply collections of shapes and lines or paths.  The '0' in t
 ###Example #3 : Working With A Library
 Given that all SVG files are shapes and paths that can be configured and styled or mathematically altered, it shouldn't be too much of a surprise to learn that animation libraries exist.  A nice one that I found is called Walkway.js which [animates wireframe drawings of PS4 consoles here](http://www.connoratherton.com/walkway) and [here](http://www.polygon.com/a/ps4-review) and can used "to animate SVG images consisting of line, path, and polyline elements."  The author's code [is stored on Github](https://github.com/ConnorAtherton/walkway).  I was able to use this library together with camera graphic I found on Google Images below, and use this to [animate some of the sign-in pages on my Instagram project.](http://beninst.herokuapp.com/users/sign_up)
 
-
-![Camera](https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png)
-
+<img src="https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png" align="left" height="300" width="244" >
 
 ###Where Would I Go Next?
 We are really just scratching SVG's surface here.  In an era of infographics and increasingly visual content, SVG's domain should be seen as much broader than that of quirky animations and cool front-pages.  [D3.js is a JavaScript library for manipulating documents based on data](http://d3js.org) and one of the next libraries I am personally keen to explore.  In addition, I haven't covered how SVG files can be used as masks.  Their shapes and patterns can be used to partially reveal a background.  Some rough-and-ready examples can be found here.
