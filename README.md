@@ -44,6 +44,7 @@ All SVG files are simply collections of shapes and lines or paths.  The '0' in t
 Given that all SVG files are shapes and paths that can be configured and styled or mathematically altered, it shouldn't be too much of a surprise to learn that animation libraries exist.  A nice one that I found is called Walkway.js which [animates wireframe drawings of PS4 consoles here](http://www.connoratherton.com/walkway) and [here](http://www.polygon.com/a/ps4-review) and can used "to animate SVG images consisting of line, path, and polyline elements."  The author's code [is stored on Github](https://github.com/ConnorAtherton/walkway).  I was able to use this library together with camera graphic I found on Google Images below, and use this to [animate some of the sign-in pages on my Instagram project.](http://beninst.herokuapp.com/users/sign_up)
 
 <img src="https://github.com/benhutchinson/SVG/blob/master/public/img/camera.png" align="left" style="display: block" width="300px" height="244px"/>
+<br />
 
 
 ###Where Would I Go Next?
