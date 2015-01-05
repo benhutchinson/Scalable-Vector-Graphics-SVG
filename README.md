@@ -1,5 +1,5 @@
-An Introduction to Scalable Vector Graphics
-===========================================
+An Intro to Scalable Vector Graphics
+====================================
 
 Over Christmas, I decided to learn some of the basics of Scalable Vector Graphics (SVG).  The below offers the basic outline of a talk I subsequently gave at Makers Academy on the topic.  This is meant to serve as a very basic introduction to SVG and scratch the surface of some of its key selling points.  My presentation is best consumed with a basic grasp of jQuery, CSS3, and HTML.  The files are hosted here on Heroku.
 
@@ -13,12 +13,12 @@ SVG graphics are lossless.  You can scale them up as much as you like without su
 ###Example #1 : How Could You Get Started With SVG Today?
 The front-page of my presentation here uses just one single 4kb SVG file.  The sliding animation is simply controlled via CSS but this illustrates quite simply some of the beauty of SVG and its crisp, smooth, lossless characteristics.  You can contrast this with an equivalent page using a small 200px 4kb GIF file I found here.  008 link.  Thus, what this means for you today is that where you are presented with a choice between using an SVG file or another in perhaps GIF or JPG format, you may find SVG more flexible, placing you better for customers on anything from mobile to 5k retina-like screens.  And if you do find an SVG file, don't be afraid to play with it a touch.
 
-###Example #2 : The Next Step : Going Beneath The Bonnet Of SVG 
+###Example #2 : The Next Step : Beneath The Bonnet Of SVG 
 Assuming you hold an SVG file, you may decide that you would like to customise it on the fly.  For example, you may like to modify small elements of the graphic and style the fill or stroke of an element in response to a jQuery event such as a click or mouseover.  To do this, you need to understand how SVG files are put together, therefore let us look at an example.  
 
-All SVG files are simply collections of shapes and lines or paths.  The '0' in the '007' logo could be considered as a couple of rotated ellipses or even closed path elements while the crocodile copied below could be seen as a structure of polygons.  The elements that make up SVG images can take a stroke and fill and are described in mark-up very similar to HTML.  Below is the SVG code that describes the computer graphic copied further beneath.  If you were to assign the ```rect``` and ```polygon``` elements individual ```id``` attributes and remove their currently assigned ```fill``` attributes, you would now be in a position to style the computer via a CSS file.  
+All SVG files are simply collections of shapes and lines or paths.  The '0' in the '007' logo could be considered as a couple of rotated ellipses or even closed path elements while the crocodile copied below could be seen as a structure of polygons.  The elements that make up SVG images can take a stroke and fill and are described in mark-up very similar to HTML.  Below is the SVG code that describes the computer graphic copied further beneath.  If you were to assign the ```rect``` and ```polygon``` elements individual ```id``` attributes and remove their currently assigned ```fill``` attributes, you would now be in a position to style the computer via a CSS file. 
 
-[It is through this logic that my opening "007" page can easily take a more minimalist style.]()
+[It is through this logic that my opening "007" page can easily take a more minimalist style]().  [Further examples with the Leeds United FC logo can also be found here.]()  The Yorkshire Rose pops out and rotates on mouseover, the core badge fill takes a patterned fill defined by the SVG diagonal box on the left-hand-side of the page, the chevrons and text fade and take a stroke, and the "l" letter flies in completing the graphic on page load.
 
 
 ```html
@@ -35,29 +35,25 @@ All SVG files are simply collections of shapes and lines or paths.  The '0' in t
 
 ```
 
+
 ![Computer](https://github.com/benhutchinson/SVG/blob/master/public/img/computer.png)
 
 ![SVG Snap Logo](https://github.com/benhutchinson/SVG/blob/master/public/img/crocodile.png)
 
 
 ###Example #3 : Working With A Library
+Given that all SVG files are shapes and paths, it shouldn't be too much 
 
 
 
-
-
-
-Here I will show you some simple ways to take an additional level of control over an SVG file, but in order to this,
-
-Just as HTML
-
-Assuming that you have found an SVG element, you 
-
-If you are comfortable with HTML 
-
-described using geometric shapes, described mathematically and quite precise
-they are not described on a pixel-by-pixel basis.
-
+walkway + lufc page example
+limits - ie. want to access elements, but more precise shaping etc and defining of elements better in a graphics package
+check on smaller mac
+heroku host
+tidy up a bit more
+rough examples cna't cover - clip, mask more animations
+the examples in the adobe library
+conclusion, remidns me of flash a bit.
 
 
 ###Example #3 : Let's Use A Library
