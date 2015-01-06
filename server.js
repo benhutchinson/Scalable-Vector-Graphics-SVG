@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
+var port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 
@@ -42,7 +43,7 @@ app.get('/mdn_tutorial', function(req, res){
   res.render('mdn_tutorial');
 });
 
-server.listen(3000, function(){
+server.listen(port, function(){
   console.log("Server listening");
 });
 
