@@ -26,7 +26,7 @@ body {
 section#logo-area {
 	position: absolute;
 	display: inline-block;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	z-index: 20;
 }
@@ -37,25 +37,38 @@ p#title {
 }
 
 p#title:hover {
-	color: red;
-	opacity: 0.7;
+	color: #6A0000;
+	opacity: 1;
 }
 
 section#links-area {
-  position: absolute;
+  position: fixed;
   display: inline-block;
-  top: 0%;
+  top: 100%;
   left: 0%;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px; 
+  height: 50px;
+  font-family: 'movie';
+  font-size: 50px;
+  padding-top: 14px;
   z-index: 20;
 }
 
-p#links {
-  font-family: 'movie';
-  font-size: 4em;
+#links-area a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+#links-area a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 #logo {
-	height: 105%;
+	height: calc(100% - 24px);
 	display: inline-block;
 	position: absolute;
 	top: -7px;
@@ -67,7 +80,7 @@ p#links {
 }
 
 #logo-red {
-	height: 105%;
+  height: calc(100% - 25px);
 	display: inline-block;
 	position: absolute;
 	top: -7px;
@@ -78,7 +91,7 @@ p#links {
 }
 
 #logo-raster {
-	height: 400%;
+  height: calc(400% - 30px);
 	display: inline-block;
 	position: absolute;
 	top: -150%;
@@ -90,7 +103,7 @@ p#links {
 }
 
 #logo-raster-red {
-	height: 400%;
+  height: calc(400% - 30px);
 	display: inline-block;
 	position: absolute;
 	top: -150%;

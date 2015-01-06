@@ -49,6 +49,7 @@ body {
 }
 
 #textwrapper {
+  margin-top: -70px; 
   -webkit-perspective: 90px;
   transition: all 4s ease-in-out;
 }
