@@ -3,15 +3,6 @@ An Intro to Scalable Vector Graphics
 
 Over Christmas, I decided to learn some of the basics of Scalable Vector Graphics (SVG).  The below offers the basic outline of a talk I subsequently gave at Makers Academy on the topic.  This is meant to serve as a very basic introduction to SVG and scratch the surface of some of its key selling points.  My presentation is best consumed with a basic grasp of jQuery, CSS3, and HTML.  The presentation can be [accessed here on Heroku.](https://bensvg.herokuapp.com/007)
 
----------- add all links.
----------- heroku
----------- link the presentation slides
----------- the red 't' to mask out on 009
----------- the needless footer content on 007
----------- a few new movie fonts to link it
----------- check on the screen looks ok
-
-
 ###What Is A Scalable Vector Graphic?  Why Should You Care?
 SVG graphics are lossless.  You can scale them up as much as you like without suffering any degradation in quality and they are typically small in file size too.  Oh, and just one more thing.. with SVG, you have the ability to dynamically alter and control internal elements, shapes and attributes of your graphics.  You can change strokes, alter shapes, adjust fills in your browser on the fly and take advantage of powerful animation libraries.  Put together, these features render SVG perfect for the web, well-supported, well-equipped for responsive design, great for mobile, and fantastic for creativity.  Chrome supports SVG out of the box.
 
