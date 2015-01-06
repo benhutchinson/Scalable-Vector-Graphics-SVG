@@ -22,6 +22,10 @@ app.get('/009', function(req, res){
   res.render('009');
 });
 
+app.get('/bar', function(req, res){
+  res.render('bar');
+});
+
 app.get('/', function(req, res){
   res.render('ben2');
 });
