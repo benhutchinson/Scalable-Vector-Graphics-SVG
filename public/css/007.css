@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'skyfall';
-    src: url('/fonts/Skyfall Done.ttf') format('truetype');
+    src: url('/fonts/SkyfallDone.ttf') format('truetype');
     font-style: normal;
 }
 
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'movie';
-    src: url('/fonts/Sf Movie Poster.ttf') format('truetype');
+    src: url('/fonts/SfMoviePoster.ttf') format('truetype');
     font-style: normal;
 }
 
