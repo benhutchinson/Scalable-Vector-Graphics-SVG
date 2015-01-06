@@ -1,18 +1,12 @@
 @font-face {
     font-family: 'skyfall';
-    src: url('/css/fonts/SkyfallDone.ttf') format('truetype');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'bondlogos';
-    src: url('/css/fonts/bond.ttf') format('truetype');
+    src: url('https://cdn.rawgit.com/benhutchinson/SVG/463e55f7ce0cc3c0868395f3d60c1130cf9a2ef7/public/css/fonts/SkyFallDone.ttf?raw=true') format('truetype');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'movie';
-    src: url('/css/fonts/SfMoviePoster.ttf') format('truetype');
+    src: url('https://cdn.rawgit.com/benhutchinson/SVG/463e55f7ce0cc3c0868395f3d60c1130cf9a2ef7/public/css/fonts/SFMoviePoster.ttf?raw=true') format('truetype');
     font-style: normal;
 }
 
