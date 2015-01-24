@@ -64,6 +64,7 @@ We are really just scratching SVG's surface here.  In an era of infographics and
 * Oh, and SVG files are not photos...let us bring on [The Graphical Web](http://thegraphicalweb.com/)
 
 ###Resources & Tutorials
+- [Joni Bologna's Pocket Guide To SVG](http://svgpocketguide.com/) is a resource I was shown after putting this together and online book I wish I had found at the start!
 - [Caniuse.com](http://www.caniuse.com) is a useful web-site if you want to assess a feature's cross-browser functionality.  This is important as the graphical web is continually evolving.
 - [If you are new to graphics, Adobe provide a bit of an overview of some of the different image types that exist and the difference between vector and raster image files](https://helpx.adobe.com/illustrator/how-to/illustrator-bitmap-vs-vector.html)
 - The [Vox Media Xbox One Review](http://product.voxmedia.com/2013/11/25/5426880/polygon-feature-design-svg-animations-for-fun-and-profit) is an interesting SVG case study and a real-world example showing how a vector illustration is put together in Adobe Illustrator before finding its way on to the web and being animated, and I think it was the inspiration for Walkway.js
